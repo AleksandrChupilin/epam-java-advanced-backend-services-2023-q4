@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.chupilin.javaadvancedcource</groupId>
-	<artifactId>module1</artifactId>
+	<artifactId>module1-spring-foundation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>module1</name>
 	<description>Java Advanced: Backend Services [2023 Q4 VS Peer]</description>
