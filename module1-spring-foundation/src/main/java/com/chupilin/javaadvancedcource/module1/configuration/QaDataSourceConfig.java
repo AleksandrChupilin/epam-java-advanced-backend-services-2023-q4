@@ -7,15 +7,15 @@ import org.springframework.context.annotation.Profile;
 
 import javax.sql.DataSource;
 
-@Profile("DEV")
+@Profile("QA")
 @Configuration
-public class DefaultDataSourceConfig {
+public class QaDataSourceConfig {
 
     @Bean
     public DataSource defaultDataSource() {
         return DataSourceBuilder.create()
                 .driverClassName("org.h2.Driver")
-                .url("jdbc:h2:mem:test;DB_CLOSE_ON_EXIT=FALSE")
+                .url("jdbc:h2:mem:qa;DB_CLOSE_ON_EXIT=FALSE")
                 .username("SA")
                 .password("")
                 .build();
